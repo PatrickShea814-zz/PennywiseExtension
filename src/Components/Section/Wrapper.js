@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import MagicLamp from '../Nav/img/greenlamp.png';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 // import SignInBtn from '../Buttons/SignIn';
 // import GoToSite from '../Buttons/ToSite';
 import ItemPreview from '../ItemLinkPreview/ItemPreview';
@@ -16,16 +16,16 @@ const Section = styled.section`
     justify-content: center;
 `;
 
-const Title = styled.h1`
-    text-align: center
-    font-size: 40px;
-    margin: 5% auto;
-`;
+// const Title = styled.h1`
+//     text-align: center
+//     font-size: 40px;
+//     margin: 5% auto;
+// `;
 
-const CustIcon = styled.img`
-    width: 50px;
-    height: auto;
-`;
+// const CustIcon = styled.img`
+//     width: 50px;
+//     height: auto;
+// `;
 
 
 

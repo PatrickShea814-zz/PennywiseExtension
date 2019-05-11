@@ -12,7 +12,8 @@
     "storage",
     "activeTab",
     "tabs",
-    "declarativeContent"
+    "declarativeContent",
+    "*://*.getpennywise.io/*"
   ],
   "web_accessible_resources": [
     "*.html"

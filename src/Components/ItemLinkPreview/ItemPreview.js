@@ -1,7 +1,7 @@
 /* global chrome */
 import React, { Component } from 'react';
 import MicrolinkCard from '@microlink/react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 const ItemWrapper = styled.div`
     padding: 3%;
@@ -33,7 +33,7 @@ class ItemPreview extends Component {
                 <MicrolinkCard
                     className='item-shadow'
                     url={this.state.itemURL}
-                    style={{ fontFamily: "Arial Rounded MT", "Helvetica Rounded"}}
+                    style={{ fontFamily: 'Nitti, "Microsoft YaHei", 微软雅黑, monospace' }}
                     media={['video', 'image']}
                     size='large'
                     controls
