@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "PennyWise Chrome Extension",
+  "author": "PennyWise",
+  "version": "1.0.1",
+  "description": "Allow users to save items to their PennyWise Wish List Dashboard.",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "PennyWise"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "declarativeContent",
+    "*://*.getpennywise.io/*"
+  ],
+  "web_accessible_resources": [
+    "*.html"
+  ],
+  "matches": [
+    "*://*.getpennywise.io/*"
+  ]
+}
